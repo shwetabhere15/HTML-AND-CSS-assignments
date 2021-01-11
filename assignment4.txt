@@ -1,0 +1,310 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Q1.DESIGN A web page spanning rows and colomn.
+
+ <!DOCTYPE html>
+<html> 
+<head>
+<title> TABLE </title>
+</head>
+<body>
+<h2> Table Example:table spanning rows and coloum <h2>
+<style>
+table,th,td{
+border: 1px solid black;
+border-style:solid;
+text-align:center;
+font-size: 20px;
+font-weight: normal;
+width: 60%;
+height: 40%;;  
+}
+
+</style>
+
+<table border= "2" style= "text-align: center;">  <!-- tr is table row,to show the tr table data td used--> 
+  <caption>A more complex sample table  </caption>
+  <tr>
+    <td rowspan="2">
+      <img src="camel.jpeg" height="100%" width="100%"/>
+    </td>
+    <td colspan="4" style="padding:20px">
+      <strong > Camelid comparision<br> Approximate as of 6/2011 </strong>
+    </td>
+    
+
+  </tr>
+  <tr style="width: 40%">
+    <td >
+      <strong> # of humps </strong>
+    </td>
+    <td>
+      <strong >Indigenous region </strong>
+    </td>
+    <td><strong>Spits? </strong></td>
+    <td><strong>Produces wool? </strong></td>
+    
+
+  </tr>
+
+  <tr>
+    <th> <strong>Camels (bactrian)</strong> </th>
+    <td> 2</td>
+    <td>Africa/Asia</td>
+    <td>Yes</td>
+    <td>Yes</td>
+
+  </tr>
+  <tr>
+    <th><strong>LIams </strong></th>
+    <td>1</td>
+    <td>Andes Mountains</td>
+    <td>Yes</td>
+    <td>Yes</td>
+
+  </tr>
+  </table>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2.design a web page to express you though about life journey of our dearest mr.rishi kapoor or irrfan khan.
+
+<html>
+    <head>
+        <style type="text/css">
+        h1{
+            color:tomato;
+        }
+        body{
+            background-image: url("backgrond.jpg");
+          
+        }
+        p{
+            background-color: rgb(94, 6, 94);
+            font-weight:bold ;
+            font-style: italic;
+            font-size:20px;
+            text-align: left;
+        }
+        table{
+            font-style: oblique;
+            text-align: left;
+            color: rgb(30, 128, 30);
+            size: 50px;
+            background-color: turquoise;
+            border-style: dotted;
+        
+        }
+        </style>
+        
+    </head>
+    <h1> WELCOME TO BOLLYWOOD</h1>
+    <body>
+        
+        <!--<h1>THE LEGENDRY RISHI KAPOOR</h1>
+       <table border="1" align="center"> <tr> <th> NAME :Rishi Kapoor </th><br></tr>
+        <tr> <th>Born :4 september 1952 bombay</th></tr><br>
+        <tr><th>Died :30 April 2020 </th><br></br>
+            <tr><th>Occupation :Film Actor </th><br></br>
+                <tr><th>Years Active:1970-2020 </th><br></br>
+                    <tr><th>Children's:2 including Ranbir Kapoor </th><br></br>
+
+       </table> -->
+       <table>
+           <thead>
+               <th></th>
+           </thead>
+       </table>
+       <div>
+           abc
+       </div>
+       <img src="rishikapoor.jpg" width:"500" height="350">
+       <p>Rishi Raj Kapoor was born on 4 September 1952 at his family's home in Matunga, Bombay, in the then Bombay State of India, into a Khatri Punjabi Hindu family.[16][17][18][19] He attended Campion School, Mumbai and Mayo College, Ajmer.[20]
+
+        Being part of the Kapoor dynasty, he was the second son of legendary actor-director Raj Kapoor and Krishna Raj Kapoor (née Malhotra).[21] Likewise, his family encompasses a successful line of actors, including brothers, Randhir and Rajiv Kapoor; grandfather Prithviraj Kapoor; maternal uncles Prem, Rajendra, and Narendra Nath, as well as Prem Chopra; paternal uncles Shashi Kapoor and Shammi Kapoor; and paternal once removed cousins Anil Kapoor and Sanjay Kapoor.[22][23] Rishi Kapoor's two sisters, on the other hand, include late Ritu Nanda, who was an insurance agent, and Rima Jain.[24] The actresses Karisma Kapoor and Kareena Kapoor Khan and the actors Armaan Jain and Adarsh Jain are his nieces and nephews.</p>
+
+<h1>IRFFAN KHAN</h1>
+<table border="1" align="center"> <tr> <th> NAME :Sahabzade Irfan Ali Khan  </th><br></tr>
+    
+    <tr> <th>Born :7 January 1967 Tonk, Rajasthan</th></tr><br>
+        
+    <tr><th>Died :29 April 2020 (aged 53)Mumbai, </th><br></br>
+        
+        <tr><th>Occupation :Film Actor </th><br></br>
+            <tr><th>Years Active:1985–2020 </th><br></br>
+                <tr><th>Children's:2  </th><br></br>
+-----------------------------------------------------------------------------------------------------
+Q4.design a web page for nested list.
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <style type="text/css">
+    ul.a{
+        list-style-type: circle;
+        
+    }
+    ul.b{
+        list-style-type: circle;
+    
+        margin: 100;
+  padding: 100;
+}
+    }
+    ol.c{
+        font-style: bold;
+        margin: 150;
+  padding: 150;
+}
+    }
+    </style>
+
+
+
+
+
+    <title>ASSIGNMENTNO4</title>
+</head>
+<body>
+    <H1><B>The Best Features Of the Internet</B></H1>
+    <ul>
+        <li>You can meet new people from countries around the world.</li>
+    </ul>
+    <ul>
+        <li>You have access to  new media as it becomes public:</li>
+    </ul>
+    <ul class="a">
+        <li>New games</li>
+        <li>New applications</li>
+        
+      </ul>
+      <ol>
+        <li>for business</li>
+        <li>for pleasure</li>
+      </ol>
+      <ul class="b">
+        <li>Around the clock news</li>
+        <li>search engines</li>
+        <li>shopping</li>
+        <li>programming</li>
+      </ul>
+      <ol class="c"><stong>
+        <li>XML</li>
+        <li>Java</li>
+        <li>HTML5</li>
+        <li>JavaScript</li>
+        <li>New Language</li>
+        </ol></stong>
+
+        <ul class="d">
+        <li>Links</li>
+        <li>Keeping in touch with old friends</li>
+        <li>It's the technology of the future!</li>
+        
+      </ul>
+       
+    </body>
+    </html>
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Q5.Design your bio data page
+<html>
+    <head>
+       <title> Resume</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="Resume.css">
+        <table border="1" align="center" width="50%">
+            <tr>
+               
+                <div class="origin">
+                <th> <h1> THIS IS MY RESUME </h1></th>
+            </div>
+            
+                
+            </tr>
+            <tr>
+                <h2><th align="left"><h2> Shweta Bhere</h2>
+                    <img src="shweta.jpeg" align="right" height="150" width="150" border="1">
+                    <b> Mobile NO:7045898990<b><br>
+                   <b> Email ID:shwetabhere15@gmail.com</br><br>
+                    <hr>
+                    <h2> personal Details:</h2>
+                    <ul>
+                        <li> Father Name: Narayan</li>
+                        <li> Mother Name: Nayana</li>
+                        <li> Address: koperkhairne ss-2,sec-6, room no.67,navi mumbai</li>
+                        <li> Date Of Birth: 15,july,1995</li>
+                        <li> Nationality: Indian</li>
+                        <li> Marital Status: unmarried</li> 
+                        </ul>
+                        <div class="origin">
+                        <h2>   Educational Qualifications: </h2>
+                    </div>
+                        <table border="1"> <tr> <th> Qualification  </th> <th>University </th> <th>Year Of Passing </th><th>Percentage</th>
+                       </tr>
+                       <tr> <td> B.E </td><td>MUMBAI University</td> <td> 2019 </td><td>65.55</td>
+                       <tr> <td> Secondary </td><td>vivekanand jr. College</td> <td> 2013 </td><td>69.12</td>
+                       <tr> <td> Primary</td><td>renuka vidyalaya zidke</td> <td> 2011 </td><td>83.10</td>
+                       </table>
+                        <h2> Extra-Curricular Activities: <h2>
+                        <table border="1"> <tr> <th> Certificate  </th> <th>Institute </th> <th>attended Year  </th>
+                       </tr>
+                       <tr> <td>  1 month Entrepreneurship Awareness </td><td>Hindustan coca cola Bevarages Ltd.
+                       </td> <td> 2019 </td>
+                       
+                       </table>
+                       <h2> Strength: </h2>
+                       <ul>
+                       <li> WELL Descipline </li>
+                       <li> Accept failure with smile </li>
+                       </ul>
+                       <h2> Weekness: </h2>
+                       <ul>
+                       <li> Impatient</li>
+                       </ul>
+                       
+                       
+                       
+                       
+                       </th>
+                       </tr>
+                       </body>
+                       </html>
+
+---------------------------------------------------------------------------------------
+
+Q6.design a web page for your favourites hyperlinks.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Assignmentno1</title>
+</head>
+<body>
+    <h1>Here are my favorite sites</h1>
+    <h2> Click on a name to go that page</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/"> youtube</a></li>
+        <li><a href="https://www.wikipedia.org/"> Wikipedia</a></li>
+        <li><a href="https://www.amazon.in/"> Amazon</a></li>
+        <li><a href="https://in.linkedin.com/">LinkedIn </a></li>
+    </ul>
+    
+</body>
+</html>
+
+        
+        
+        
+
+     
+
+
+  
+        
